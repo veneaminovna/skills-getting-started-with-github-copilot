@@ -88,9 +88,9 @@ section h3 {
 }
 
 .participants-list {
-  list-style: disc;
+  list-style: none;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 .participants-list li {
@@ -123,6 +123,21 @@ section h3 {
   font-size: 14px;
   color: #333;
   word-break: break-word;
+}
+
+.delete-participant {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.delete-participant:hover {
+  background: rgba(198,40,40,0.08);
 }
 
 .form-group {
